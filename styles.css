@@ -1,4 +1,5 @@
 /* Add your CSS to this file */
+
 body {
     margin: 0;
     font-size: 16px;
@@ -8,4 +9,215 @@ body {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+   
 }
+
+header{
+    margin: 20px 0 20px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+h1{
+    margin: 0;
+   
+}
+ header li {
+    float: left;
+  }
+
+  header ul {
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+
+  li a {
+    display: block;
+ 
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+ 
+    /************OVERVIEW************/
+    .overview-hero{
+       
+        padding: 20px;
+    }
+    .overview-hero .container{
+        display: flex;
+    
+        align-items: center;
+        gap: 10px
+    }
+    .overview-hero img{
+        width: 450px;
+    }
+    .overview-hero-image{
+        margin-right: 10px;
+    }
+
+    .overview-hero-text{
+        margin-left: 10px;
+        
+    }
+
+
+
+
+    
+    /*************LEARN ABOUT*****************/
+    .learn-about{
+        margin: 10px 0 40px 0;
+    }
+    .learn-about .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .learn-about .card{
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .learn-about .card img{
+        width: 100%;
+    }
+
+    .learn-about .card-body{
+        padding: 20px;
+    }
+
+    /*************TESTING*****************/
+ 
+    .testing{
+       
+        padding: 100px;
+    }
+    .testing .container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 10px;
+    }
+    .testing .cta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+   
+    .testing .btn{
+        border: 2px solid #000; 
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 15px 30px 15px 30px;
+        white-space: nowrap;
+    }
+
+
+ /*************STORIES*****************/
+.stories{
+    margin: 60px 0 60px 0;
+    }
+    .stories article{
+        display: flex;
+        
+    
+    }
+    .stories h2{
+        margin-left: 31px;
+        justify-content: center;
+
+    }
+    .stories img{
+        width: 200px;
+        height: 195px;
+        border-radius: 200%;
+        align-self: center;
+        margin-right: 30px;
+        margin-bottom: 50px;
+        object-fit:fill;
+    }
+
+    .stories a{
+        text-decoration: none;
+        
+        font-weight: 500;
+    }
+    /*************NEWSLETTER*****************/
+    .newsletter{
+        padding: 80px;
+        text-align: center;
+    }
+    .newsletter .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 500px;
+    }
+    .newsletter h3{
+        margin: 0;
+    }
+    .newsletter p{
+        margin: 20px 0 20px 0;
+    }
+    .newsletter form{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 30px;
+        width: 100%;
+    }
+    .newsletter input{
+        height: 30px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        
+    }
+    .newsletter button{
+     
+        width: 100%;
+        padding: 18px;
+        border-radius: 5px;
+  
+        font-weight: 700;
+        font-size: 14px;
+    
+    }
+    .email-invalid{
+        margin-top: 20px;
+       
+        border-radius: 8px;
+        width: 250px;
+        padding: 7px;
+        font-size: 14px;
+    }
+    .email-valid{
+        margin-top: 20px;
+       
+        border-radius: 8px;
+        max-width: 400px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+
+    /*************FOOTER*****************/
+
+    footer{
+        padding: 30px 0 30px 0;
+    }
+    footer p{
+        margin: 0;
+    }
+    
+    
