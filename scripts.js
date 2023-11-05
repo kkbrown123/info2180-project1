@@ -4,7 +4,6 @@ window.addEventListener('load', function () {
     const email = document.querySelector("#email")
     const submit = document.querySelector("button")
     const message = document.querySelector(".message")
-
     const valid = function() {
         if(message.classList.contains("email-invalid")){
             message.classList.remove("email-invalid")
